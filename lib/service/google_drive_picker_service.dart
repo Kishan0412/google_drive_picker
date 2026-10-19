@@ -22,8 +22,8 @@ const _webScope = 'https://www.googleapis.com/auth/drive.file';
 const _mobileScopes = [_webScope];
 
 // OAuth "Web application" client ID (used by web + as serverClientId on Android)
-const _webClientId = '81987916165-mh4oa15kcgn57p247eoqekf507n1o2e9.apps.googleusercontent.com';
-const _appId = '81987916165';
+const _webClientId = 'WEB_CLIENT_ID';
+const _appId = 'APP_ID';
 
 class DrivePickedFile {
   final String id;
